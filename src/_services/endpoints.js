@@ -7,7 +7,7 @@ export const loginBoxType = {
 
 export const endpoints = {
   // Change this URL if you want to point the React application at another Pega server.
-  PEGAURL: "https://k03p71wj.pegace.net/prweb", // local Pega server
+  PEGAURL: "https://ukwlhc3i.pegace.net/prweb", // local Pega server
 
   // Specify an appAlias to allow operators to access application when this application's access
   //  group is not the default access group specified within the operator record.
@@ -45,9 +45,9 @@ export const endpoints = {
   
   // Embedding app example related settings
   EMBEDCFG: {
-    caseType: "MyOrg-Estimati-Work-SampleAPI",
-    userIdentifier: "APUIser",
-    password: "9866@Qwerty",
+    caseType: "MyOrg-BidEaze-Work-Proposal",
+    userIdentifier: "BidEazeUser",
+    password: "rules-123",
     passContent: true
   },
 
